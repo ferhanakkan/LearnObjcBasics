@@ -7,7 +7,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    // You have to define type your properties on vc.h file
+    
+    __weak IBOutlet UILabel *label;
+    NSString *testString;
+    int intFirst;
+    int secondInt;
+}
 
 
 @end

@@ -22,6 +22,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jhj-hI-phR">
+                                <rect key="frame" x="184" y="164" width="46" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -33,6 +38,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button" destination="Jhj-hI-phR" id="ClM-z3-saW"/>
                         <outlet property="label" destination="HZJ-iE-LQJ" id="xgC-ch-0P5"/>
                     </connections>
                 </viewController>

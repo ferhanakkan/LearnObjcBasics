@@ -28,7 +28,25 @@
     label.text = [NSString stringWithFormat:@"%@ %@",testString,@"second var"]; // label.text = "\(testString) second var"
     label.textAlignment = NSTextAlignmentCenter; // label.textAlignment = .center
     
+    intFirst = 10; // intFirst = 10
+    secondInt = 200; // secondInt = 200
     
+   const int score = intFirst * secondInt; // let score = intFirst * secondInt
+    
+    label.text = [NSString stringWithFormat:@"%d", score]; // label.text = "\(score)"
+    
+    doubleFirst = 100.231;
+    secondDouble = 299.123;
+    label.text = [NSString stringWithFormat:@"%d %d",doubleFirst,secondDouble];
+    
+    label.text = [NSString stringWithFormat:@"%.2f %.2f",doubleFirst,secondDouble];
+    
+    boolFirst = false;
+    
+    if (!boolFirst) {
+        button.enabled = boolFirst;
+        label.text = @"Hi there";
+    }
 }
 
 

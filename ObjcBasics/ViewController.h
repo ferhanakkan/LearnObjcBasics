@@ -10,10 +10,16 @@
 @interface ViewController : UIViewController {
     // You have to define type your properties on vc.h file
     
+    __weak IBOutlet UIButton *button;
     __weak IBOutlet UILabel *label;
     NSString *testString;
     int intFirst;
     int secondInt;
+    
+    double doubleFirst;
+    double secondDouble;
+    
+    BOOL boolFirst;
 }
 
 
